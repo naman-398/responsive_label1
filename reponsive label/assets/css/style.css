@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.heading {
+   max-width: 700px;
+    color: var(--colors-heading, #1E0E62);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    padding-top: 100px;
+}
+
+.mxauto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.para {
+   max-width:764px;
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    padding-top: 20px;
+    padding-bottom: 52px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+   
+}
+
+.card {
+    width: 100%;
+    max-width: 270px;
+    height: 160px;
+    border-radius: 10px;
+background: var(--colors-grey, #EBEAED);
+   
+}
+
+.align-item {
+    align-items: center;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+.col12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+@media(min-width:576px) {
+    .col-md-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media(min-width:768px) {
+    .col-lg-4 {
+        width: 33.3%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media(min-width:992px) {
+    .col-xlg-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
